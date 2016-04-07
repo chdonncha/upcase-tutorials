@@ -1,0 +1,188 @@
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:21:48 +0000
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:24:45 +0000
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:25:34 +0000
+Processing by TodosController#index as HTML
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:28:54 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1314ms (Views: 1294.3ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:30:13 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 348ms (Views: 329.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:31:38 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 382ms (Views: 358.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:33:20 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 386ms (Views: 368.0ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:36:46 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 360ms (Views: 342.8ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 15:37:47 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 361ms (Views: 342.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-06 16:05:54 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 382ms (Views: 353.7ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-07 09:33:38 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (50.6ms)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-07 09:36:48 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (40.7ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2016-04-07 09:38:39 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (46.0ms)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.0ms)
+  [1m[36m (12.5ms)[0m  [1mCREATE TABLE "todos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (24.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (13.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (17.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160407093909')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 09:56:43 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 09:58:56 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:03:13 +0000
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:06:00 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 450ms (Views: 430.9ms | ActiveRecord: 0.6ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 10:06:00 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:08:48 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 336ms (Views: 314.9ms | ActiveRecord: 0.5ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 10:08:49 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:11:58 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 319ms (Views: 300.4ms | ActiveRecord: 0.4ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 10:11:58 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:11:58 +0000
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:54:38 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 466ms (Views: 441.9ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:55:09 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 391ms (Views: 369.8ms | ActiveRecord: 0.4ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 10:55:09 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 10:59:32 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 340ms (Views: 311.7ms | ActiveRecord: 0.4ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 10:59:32 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 11:09:30 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 453ms (Views: 429.8ms | ActiveRecord: 0.6ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 11:09:31 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 12:12:03 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 349ms (Views: 329.4ms | ActiveRecord: 0.6ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 12:12:03 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 51ms (Views: 45.7ms | ActiveRecord: 0.5ms)
+Started POST "/todos" for 127.0.0.1 at 2016-04-07 12:12:03 +0000
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "todo"=>{"title"=>"Buy milk"}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)  [["title", "Buy milk"], ["created_at", "2016-04-07 12:12:03.663866"], ["updated_at", "2016-04-07 12:12:03.663866"]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.example.com/todos
+Completed 302 Found in 22ms (ActiveRecord: 11.8ms)
+Started GET "/todos" for 127.0.0.1 at 2016-04-07 12:12:03 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-04-07 12:16:21 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 377ms (Views: 355.0ms | ActiveRecord: 1.0ms)
+Started GET "/todos/new" for 127.0.0.1 at 2016-04-07 12:16:21 +0000
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+Started POST "/todos" for 127.0.0.1 at 2016-04-07 12:16:21 +0000
+Processing by TodosController#create as HTML
+  Parameters: {"utf8"=>"✓", "todo"=>{"title"=>"Buy milk"}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "todos" ("title", "created_at", "updated_at") VALUES (?, ?, ?)  [["title", "Buy milk"], ["created_at", "2016-04-07 12:16:21.754301"], ["updated_at", "2016-04-07 12:16:21.754301"]]
+  [1m[36m (9.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://www.example.com/todos
+Completed 302 Found in 20ms (ActiveRecord: 10.2ms)
+Started GET "/todos" for 127.0.0.1 at 2016-04-07 12:16:21 +0000
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+Started GET "/" for 127.0.0.1 at 2016-04-07 12:16:21 +0000
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
